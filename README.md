@@ -1,7 +1,5 @@
 # Desenvolvendo um CRUD simples RESTful API em Node.Js & Express.Js com MongoDb 🚀
 
-Código desenvolvido do tutorial do CRUD em Node.Js, Express e MongoDb, através do meu site: [Code4coders] (www.code4coders.wordpress.com)
-
 ## Recursos utilizados no desenvolvimento:
 
 | Ferramenta | Descrição |
