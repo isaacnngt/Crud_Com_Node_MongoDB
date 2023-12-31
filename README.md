@@ -43,7 +43,7 @@ Antes de instalar as dependências no projeto, você precisa já ter instalado n
 
 ### Instalando as Dependências
 
-Para usar cada projeto, faça o clone do repositório para sua máquina local e após rode os seguientes comandos pelo terminal (windows ou Vscode): 
+Para usar o projeto, faça o clone do repositório para sua máquina local e após rode os seguientes comandos pelo terminal (windows ou Vscode): 
 
 ```
 npm init -y
