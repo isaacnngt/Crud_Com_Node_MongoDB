@@ -75,4 +75,16 @@ Caso o MongoDb esteja devidamente instalado em sua máquina, ele iniciará o ser
 
 Agora, abre a página da aplicação em `http://localhost:3003/api`. E pronto a aplicação será executada de maneira local na sua máquina.
 
+## Créditos
+
+A ideia original desses projetinhos foram retiradas desse repositório: https://github.com/glaucia86/tutorial-crud-node-express-mongodb
+Como o projeto de espelho estava com alguns recursos já em desuso foi feita uma "limpeza" e atualizada no codigo para facilitar o entendimento
+
+---
+## Isaac Nunes
+- [instagram](https://www.instagram.com/isaacnngt)
+- [linkedin](https://www.linkedin.com/in/isaacnngt/)
+- [github](https://github.com/isaacnngt)
+
+> Me enviem feedbacks sobre esse repositorio isaacnngt@gmail.com Vou amar trocar ideias com vocês. É isso! Até a próxima!
 
