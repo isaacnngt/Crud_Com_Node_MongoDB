@@ -77,7 +77,7 @@ Agora, abre a página da aplicação em `http://localhost:3003/api`. E pronto a 
 
 ## Créditos
 
-A ideia original desses projetinhos foram retiradas desse repositório: https://github.com/glaucia86/tutorial-crud-node-express-mongodb
+A ideia original desse projeto foi retirada desse repositório: https://github.com/glaucia86/tutorial-crud-node-express-mongodb
 Como o projeto de espelho estava com alguns recursos já em desuso foi feita uma "limpeza" e atualizada no codigo para facilitar o entendimento
 
 ---
