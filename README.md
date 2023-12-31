@@ -1,26 +1,23 @@
-# Tutorial: Desenvolvendo uma Aplicação RESTful API em Node.Js & Express.Js com MongoDb
+# Desenvolvendo um CRUD simples RESTful API em Node.Js & Express.Js com MongoDb 🚀
 
 Código desenvolvido do tutorial do CRUD em Node.Js, Express e MongoDb, através do meu site: [Code4coders] (www.code4coders.wordpress.com)
 
 ## Recursos utilizados no desenvolvimento:
 
-- Node.Js;
-- Express.Js ~ v.4.0;
-- Conceito RestFul;
-- MongoDb;
-- Mongoose ~4.x;
-- JSON data (para retornar os dados);
-- PostMan (testar a API criada);
+| Ferramenta | Descrição |
+| --- | --- |
+| `javascript` | Linguagem de programação |
+| `nodejs` | Ambiente de execução do javascript|
+| `express` | Framework NodeJS |
+| `Insomnia` | Interface gráfica para realizar os testes, pode-se utilizar o postaman se preferir|
+| `MongoDb` | Banco de dados NoSQL orientado a documentos, que armazena dados em formato JSON-like|
+| `Mongoose` | Biblioteca para Node.js que simplifica a interação com o MongoDB|
+ `JSON` | JSON (JavaScript Object Notation) é um formato de dados|
 
-## Acompanhamento do Desenvolvimento dos BackLogs do Projeto:
+## Testando a Aplicação no Insomnia ou Postman:
 
-Caso queira saber o acompanhamento do desenvolvimento de cada backlog do projeto que está sendo
-desenvolvido, basta clicar [Aqui](https://trello.com/b/exbJW7kt/tutorial-construindo-uma-aplicacao-restful-api-node-js-express-com-mongodb)
-
-## Testando a Aplicação no Postman:
-
-Caso queira testar as API's criadas no projeto, primeiro baixe o [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop).
-Depois de realizar o download do Postman, basta agora realizar os passos abaiaxo para
+Caso queira testar as API's criadas no projeto, primeiro baixe o programinha Insomnia ou Postman
+Depois de realizar o download, basta agora realizar os passos abaiaxo para
 poder testar cada API criada!
 
 | ROTA                      | HTTP(Verbo) | Descrição         |
@@ -32,8 +29,6 @@ poder testar cada API criada!
 | /api/usuarios/:usuario_id | DELETE      | Excluir Por Id    |
 
 ## Executar Localmente
-
-Caso você deseja executar o projeto na sua máquina local, basta seguir os passos abaixo:
 
 ## Começando...
 
@@ -54,43 +49,38 @@ a base de dados do MongoDb em Cloud:
 
 ### Instalando as Dependências
 
-Abre o cmd (caso esteja utilizando o Windows) e digite a path do seu projeto
+Para usar cada projeto, faça o clone do repositório para sua máquina local e após rode os seguientes comandos pelo terminal (windows ou Vscode): 
 
 ```
-cd "C:\Users\NomeDoComputador\Documents\..."
+npm init -y
 ```
 
-Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução:
+Para baixar as dependencias do express:
+
+```
+npm install express
+```
+
+Para baixar as dependencias npm:
 
 ```
 npm install
 ```
 
-Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas no arquivo package.json:
-
-- `node_modules` - que contêm os packages do npm que precisará para o projeto.
-
-### Executando a Aplicação
-
-Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
+Para instalar as dependencias a biblioteca do mongo DB:
 
 ```
-node server.js
+npm install mongoose
 ```
 
-Depois, você precisará abrir um outro terminal na sua máquina e iniciar o MongoDb. Basta digitar na tela do cmd o seguinte comando:
+Para iniciar o projeto:
 
 ```
-mongod
+npm start
 ```
 
-Caso o MongoDb esteja devidamente instalado em sua máquina, ele iniciará o serviço mostrando que a port 27017 foi iniciada.
+Caso o MongoDb esteja devidamente instalado em sua máquina, ele iniciará o serviço mostrando que a port 3003 foi iniciada.
 
 Agora, abre a página da aplicação em `http://localhost:3003/api`. E pronto a aplicação será executada de maneira local na sua máquina.
 
-p.s.: no projeto, disponibilizei 2 maneiras de realizar a conexão de dados com o MongoDb através do Mongoose:
 
-- **De maneira local**: utilizando o MongoDb;
-- **De maneira em cloud**: utilizando o Modulus;
-
-Fiquem à vontade em usar ou até mesmo testar ambas as conexões!! :)
