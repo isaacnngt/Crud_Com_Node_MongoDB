@@ -41,12 +41,6 @@ Antes de instalar as dependências no projeto, você precisa já ter instalado n
 - **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
 - **MongoDb**: Caso também não tenha, basta realizar o download [Aqui](https://www.mongodb.com/download-center#community)
 
-p.s.: o MongoDb caso você decida conectar a sua base de dados de maneira local. Caso não, basta usar
-a base de dados do MongoDb em Cloud:
-
-- [Modulus](https://modulus.io/)
-- [MLab](https://mlab.com/)
-
 ### Instalando as Dependências
 
 Para usar cada projeto, faça o clone do repositório para sua máquina local e após rode os seguientes comandos pelo terminal (windows ou Vscode): 
